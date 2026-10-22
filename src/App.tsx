@@ -223,7 +223,7 @@ function App() {
       <section id="team" className="section team-section">
         <div className="container">
           <div className="section-heading split-heading"><div><span className="eyebrow">06 / فريق العمل</span><h2>وراء نماء،<br/><span className="gradient-text">فريق يصنع الفرق.</span></h2></div><p> </p></div>
-          <div className="team-grid">{team.map((member,i)=><a className="team-card" key={member.name} href={member.url} target="_blank" rel="noopener noreferrer" aria-label={`${member.name} على LinkedIn (يفتح في تبويب جديد)`}><div className={`team-avatar avatar-${i+1}`}><span className="dev-avatar" aria-hidden="true"><Code2 size={30} strokeWidth={1.8}/></span><b>{String(i+1).padStart(2,'0')}</b><span className="team-in"><Linkedin size={15}/></span></div><div className="team-role">PROJECT TEAM</div><h3>{member.name}</h3><p>{member.role}</p><span className="team-link"><Linkedin size={14}/> الملف على LinkedIn <ArrowUpLeft size={14}/></span></a>)}</div>
+          <div className="team-grid">{team.map((member,i)=><a className="team-card" key={member.name} href={member.url} target="_blank" rel="noopener noreferrer" aria-label={`${member.name} على LinkedIn (يفتح في تبويب جديد)`}><div className={`team-avatar avatar-${i+1}`}><span className="dev-avatar" aria-hidden="true"><Code2 size={30} strokeWidth={1.8}/></span><b>{String(i+1).padStart(2,'0')}</b><span className="team-in"><Linkedin size={15}/></span></div><div className="team-role">PROJECT TEAM</div><h3>{member.name}</h3><p>{member.role}</p><span className="team-link"><Linkedin size={14}/> LinkedIn <ArrowUpLeft size={14}/></span></a>)}</div>
         </div>
       </section>
 
