@@ -102,7 +102,7 @@ function App() {
         <div className="hero-grid-bg"/>
         <div className="container hero-layout">
           <div className="hero-copy">
-            <div className="eyebrow"><span className="eyebrow-dot"/> مشروع تقني · ذكاء اصطناعي وتحليلات بيانات</div>
+            <div className="eyebrow"><span className="eyebrow-dot"/> نظام ذكي · باستخدام الذكاء الاصطناعي وتحليل البيانات</div>
             <h1>قرارات أذكى،<br/><span>وهدر أقل.</span></h1>
             <p className="hero-lead">نماء منصة للتنبؤ بطلب المطاعم وإدارة هدر الطعام، تحوّل بيانات المبيعات السابقة إلى توقعات ومؤشرات تساعد على تخطيط أدق وقرارات تشغيلية أوضح.</p>
             <div className="hero-actions"><a className="button-primary" href="#about">اكتشاف المشروع <ArrowDownLeft size={17}/></a><a className="button-secondary" href="#screens"><Smartphone size={16}/> مشاهدة واجهات النظام</a></div>
@@ -124,7 +124,7 @@ function App() {
 
       <section id="about" className="section about-section">
         <div className="container">
-          <div className="section-heading split-heading"><div><span className="eyebrow">01 / عن نماء</span><h2>من بيانات المبيعات<br/>إلى <span className="gradient-text">توقع أكثر وعيًا.</span></h2></div><p>نماء مشروع يربط تحليل البيانات بالاحتياج اليومي للمطاعم، من خلال التنبؤ بالطلب المتوقع ومتابعة مؤشرات الأداء والهدر ضمن تجربة واحدة.</p></div>
+          <div className="section-heading split-heading"><div><span className="eyebrow">01 / عن نماء</span><h2>من بيانات المبيعات<br/>إلى <span className="gradient-text">توقع أكثر وعيًا.</span></h2></div><p>نماء نظام يربط تحليل البيانات بالاحتياج اليومي للمطاعم، من خلال التنبؤ بالطلب المتوقع ومتابعة مؤشرات الأداء والهدر ضمن تجربة واحدة.</p></div>
           <div className="about-grid">
             <article className="about-main-card"><span className="large-line-number">01</span><span className="card-icon orange-icon"><Activity size={21}/></span><h3>ما هو نماء؟</h3><p>نظام ذكي يساعد أصحاب المطاعم على فهم أنماط الطلب اعتمادًا على سجلات المبيعات التاريخية، ثم يعرض توقعات وتوصيات كمية قابلة للمراجعة قبل اتخاذ القرار.</p><div className="tag-row"><span>Demand Forecasting</span><span>Food Waste Analytics</span></div></article>
             <article className="about-side-card problem-card"><span className="card-icon purple-icon"><Target size={20}/></span><h3>التحدّي</h3><p>التقدير غير الدقيق للطلب قد يؤدي إلى فائض في الإنتاج وهدر وتكاليف إضافية، أو نقص في الكميات يؤثر في رضا العملاء وفرص البيع.</p><div className="card-bottom-label"><span/> مشكلة تشغيلية تحتاج بيانات أدق</div></article>
